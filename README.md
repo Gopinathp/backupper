@@ -1,5 +1,33 @@
 # backupper
 
+## Installation
+
+
+### Install Dependencies
+
+Tested with the following dependencies but it should work for java 8+
+
+
+- Openjdk version "11.0.12" 2021-07-20 LTS
+- Kotlin  version 1.5.31 (JRE 11.0.12+7-LTS)
+- KScript version 3.1.0
+
+Using [sdkman](https://sdkman.io/install) 
+
+```
+sdk install java 11.0.12-zulu
+sdk install kotlin
+sdk install kscript
+```
+### Install backupper
+
+```
+wget https://raw.githubusercontent.com/Gopinathp/backupper/main/backupper.kts
+chmod u+x backupper.kts
+./backupper.kts
+```
+
+## Usage
 backupper is a simple utility for taking backups of mongodb databases and redis server data.
 
 ```
